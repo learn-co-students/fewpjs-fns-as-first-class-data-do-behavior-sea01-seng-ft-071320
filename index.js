@@ -24,6 +24,6 @@ return "Good Afternoon";
 }
 
 /* Write your implementation of displayMessage() */
-function displayMessage(greet){
-document.querySelector('#greeting').innerText = 'TEST'
+function displayMessage(string){
+document.querySelector('#greeting').innerText = string;
 }
